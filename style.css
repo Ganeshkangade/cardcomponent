@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+@media (min-width: 376px ) and (max-width: 1440px) 
+{
+    
+        
+    .container
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    .one 
+    {
+        
+        height: auto;
+        width: 200px;
+        background-image: linear-gradient(hsl(31, 77%, 52%),hsl(31, 77%, 52%));
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .two 
+    {
+        height: 400px;
+        width: 200px;
+        background-image: linear-gradient(hsl(184, 100%, 22%),hsl(184, 100%, 22%));
+    }
+
+    .three 
+    {
+        height: 400px;
+        width: 200px;
+        background-image: linear-gradient(hsl(179, 100%, 13%),hsl(179, 100%, 13%));
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .logo
+    {
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+
+
+    .name
+    {
+        color: white;
+        font-weight: 400;
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 25px;
+        font-family:'Big Shoulders Display', sans-serif;;
+    }
+
+    p
+    {
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 15px;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    .btn
+    {
+        height: 40px;
+        width: 150px;
+        margin-left: 10%;
+        margin-top: 40px;
+        border:solid 2px white;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: transparent;
+        color:hsla(0, 0%, 100%, 0.75) ;
+    }
+
+    .btn2
+    {
+        height: 40px;
+        width: 150px;
+        margin-left: 10%;
+        margin-top: 40px;
+        border:solid 2px white;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: transparent;
+        color:hsla(0, 0%, 100%, 0.75) ;
+    }
+
+    .btn3
+    {
+        height: 40px;
+        width: 150px;
+        margin-left: 10%;
+        margin-top: 40px;
+        border:solid 2px white;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: transparent;
+        color:hsla(0, 0%, 100%, 0.75) ;
+    }
+}
+
+
+
+@media (max-width: 375px) 
+{
+    .container
+    {
+        flex-direction: column;
+        margin-left: 20%;
+    }
+
+    .one
+    {
+        border-radius: 5px 5px 0px 0px;
+        height: auto;
+    }
+
+    .three
+    {
+        border-radius: 0px 0px 5px 5px;
+        height: auto;
+    }
+
+    .btn
+    {
+        background-color: aliceblue;
+        color: hsla(31, 77%, 52%);
+        margin-bottom: 20%;
+    }
+
+    .btn2
+    {
+        background-color: aliceblue;
+        color: hsla(184, 100%, 22%);
+    }
+
+    .btn3
+    {
+        background-color: aliceblue;
+        color:hsl(179, 100%, 13%);
+        margin-bottom: 20%;
+    }
+}
